@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume Creation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="page_title">
+        <h1>Student Resume Creation</h1>
+        <h2>Create Your Professional Resume</h2>
+    </div>
+
+    <button id="btn_back" onclick="return_back()">Back</button>
+
+    <h2>Professional Certificates</h2>
+    <p>Tell us about your professional certificates.</p>
+
+    <div class="professional_certificate_form">
+        <form id="professionalCertificateForm">
+            <label for="certificate_title">Title:</label>
+            <input type="text" id="certificate_title" name="certificate_title">
+            
+            <label for="organization">Issuing Organization:</label>
+            <input type="text" id="organization" name="organization">
+            
+            <label for="date">Delivery Year:</label>
+            <input type="date" id="delivery_date" name="date">
+
+             <button type="submit" id="btn_next">Next</button>
+            
+        </form>
+
+        <button id="addCertificate" onclick="addCertificate()">Add Certificate</button>
+        <button id="removeCertificate" onclick="removeCertificate()">Remove Certificate</button>
+    </div>
+</div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="page_title">
+        <h1>Student Resume Creation</h1>
+        <h2>Create Your Professional Resume</h2>
+    </div>
+
+    <button id="btn_back">Back</button>
+
+    <h2>Other Social Activities</h2>
+    <p>Tell us about your other social activities, such as volunteering, clubs, or community involvement.</p>
+
+    <div class="other_social_activities_form">
+        <form id="other_social_activitiesForm">
+            <label for="activity">Activity:</label>
+            <input type="text" id="activity" name="activity">
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="10" cols="50"></textarea>
+
+            <label for="role_or_title">Role or Title:</label>
+            <input type="text" id="role_or_title" name="role_or_title">
+            
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date">
+
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date">
+
+            <button type="submit" id="btn_next">Next</button>
+            
+        </form>
+
+        <button id="addSocialActivity" onclick="addSocialActivity()">Add Activity</button>
+        <button id="removeSocialActivity" onclick="removeSocialActivity()">Remove Activity</button>
+    </div>
+
+</div>
+
+<script src="scripts.js"></script>
+    
+</body>
+</html>

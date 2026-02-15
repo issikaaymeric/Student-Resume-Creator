@@ -1,0 +1,33 @@
+[
+  {},
+  {
+    "name": "Kouamé Issika Aymeric Theophile Cokanh",
+    "dateOfBirth": "2004-01-02",
+    "gender": "female",
+    "address": "Riviéra 3",
+    "city": "Abidjan",
+    "region": "San-Pedro",
+    "phone": "0101010101",
+    "email": "issikaaymeric@gmail.com"
+  },
+  {
+    "name": "Kouamé Issika Aymeric Theophile Cokanh",
+    "dateOfBirth": "2005-05-06",
+    "gender": "male",
+    "address": "Riviéra 3",
+    "city": "Abidjan",
+    "region": "San-Pedro",
+    "phone": "0544272562",
+    "email": "issikathereal@gmail.com"
+  },
+  {
+    "name": "Monica Serano",
+    "dateOfBirth": "2012-12-12",
+    "gender": "male",
+    "address": "Riviéra 3",
+    "city": "Abuja",
+    "region": "San-Pedro",
+    "phone": "0101010101",
+    "email": "issikaaymeric@gmail.com"
+  }
+]

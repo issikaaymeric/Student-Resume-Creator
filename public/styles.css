@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Address Section  */
+
+.page_title{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.address_form{
+    max-width: 600px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn_next{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn_next:hover{
+    background-color: #555;
+}
+
+/* Summary form styles */
+.summary_form{
+    max-width: 600px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#btn_back{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#btn_back:hover{
+    background-color: #555;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none;
+}
+
+/* Education Section */
+.education_form{
+    max-width: 600px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#addEducation{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addEducation:hover{
+    background-color: #555;
+}
+
+#removeEducation{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #fd2121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#removeEducation:hover{
+    background-color: #555;
+}
+
+
+/* Professional Certificate Section */
+.professional_certificate_form{
+    max-width: 600px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#addCertificate{
+    margin-top: 5px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#addCertificate:hover{
+    background-color: #555;
+}
+
+#removeCertificate{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #fd2121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#removeCertificate:hover{
+    background-color: #555;
+}
+
+/* Spoken Languages Section */
+.spoken_languages_form{
+    max-width: 600px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#addLanguage{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#addLanguage:hover{
+    background-color: #555;
+}
+
+#removeLanguage{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #fd2121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}   
+
+#removeLanguage:hover{
+    background-color: #555;
+}
+
+/* Other Social Activities Section */
+.other_social_activities_form{
+    max-width: 600px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#addSocialActivity{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#addSocialActivity:hover{
+    background-color: #555;
+}
+
+#removeSocialActivity{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    padding: 10px;
+    background-color: #fd2121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#removeSocialActivity:hover{
+    background-color: #555;
+}
+
+/* Experience Page Secion */
+#addExperience{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#addExperience:hover{
+    background-color: #555;
+}
+
+#removeExperience{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    padding: 10px;
+    background-color: #fd2121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#removeExperience:hover{
+    background-color: #555;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .address_form,
+    .summary_form,
+    .education_form,
+    .professional_certificate_form,
+    .spoken_languages_form,
+    .other_social_activities_form {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 434px) {
+    .address_form,
+    .summary_form,
+    .education_form,
+    .professional_certificate_form {
+        width: 50%;
+        margin: 20px auto;
+    }
+    
+}
